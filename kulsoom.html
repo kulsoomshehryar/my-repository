@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+</head>
+<body>
+<script>
+    let age = 18;
+if (age < 20) {
+    document.write("Your Are better For voting in this age");
+}
+else{
+    document.write("You are not better for voting");
+}
+</script>
+<br><br>
+<script>
+    let score = 49;
+if(score>= 80 && score<= 100){
+    document.write("Your Grade Is A+")
+}
+else if ( score >= 70 && score <=89){
+    document.write("Your Grade Is A")
+}
+else if ( score >= 60 && score <= 79){
+    document.write("Your Grade Is B")
+}
+else if ( score >= 50 && score <= 69){
+    document.write("Your Grade Is C")
+} 
+else if ( score >= 40 && score <= 59){
+ document.write("Your Grade Is D")
+}
+else{
+    document.write("You Are Fail")
+}
+</script>
+<br><br>
+<script>
+    let age2 = 22;
+if(age2 < 18){
+    document
+    .write("Junior")
+}
+else if(age2 > 18){
+    document.write("Senior");
+}
+else{
+    document.write("Middle");
+}
+</script>
+<br><br>
+<script>
+    let mode = "dark";
+if ( mode == "dark"){
+    document.write("the background color is black");
+}
+else{
+    document.write("the background color is white");
+}
+</script>
+<p id="demo"></p>
+<script>
+ let gender = prompt("Gender:");
+ if(gender == "male"){
+    document.getElementById("viva").innerHTML = "Good Morning Sir"
+}
+else{
+    document.getElementById("viva").innerHTML = "Good Morning Maam"
+}
+</script>
+</body>
+</html> 
